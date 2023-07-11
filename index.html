@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jmark's Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <!-- forda font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <!-- forda scroll animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- forda icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- forda kit -->
+    <script src="https://kit.fontawesome.com/e3cf40776e.js" crossorigin="anonymous"></script>
+    <!-- popup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Dark Theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  </head>
+
+  <body>
+    <!-- -------------------HOME---------------- -->
+    <div class="background" id="home"></div>
+
+    <div class="nav">
+      <img src="images/logo1.png" class="logo" />
+      <ul id="item">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+        <div class="icon">
+          <a href="https://www.facebook.com/Haberrry" target="_blank">
+            <i class="fa-brands fa-square-facebook" title="Go to Facebook"></i></a>
+          <a href="https://www.instagram.com/habearry/" target="_blank">
+            <i class="fab fa-instagram" title="Go to Instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCTouhSBH1SBZgIDbn85EzHA" target="_blank">
+            <i class="fab fa-youtube" title="Go to YouTube"></i></a>
+        </div>
+      </ul>
+    </div>
+
+    <div class="intro">
+      <h1 data-aos="fade-right">Hi! I'm Jhon Mark <span>Haber</span></h1>
+      <p data-aos="fade-right">
+        I am an aspiring Computer Science student from Polytechnic University<br />
+        of the Philippines. This is my official personal portfolio website, and
+        it is <br />intended to showcase all my abilities, works, and services
+        in the <br />computer-related field.
+      </p>
+    </div>
+
+    <div class="images" data-aos="fade-left">
+      <img src="images/shape.png" class="shape" />
+      <img src="images/boy.png" class="boy" />
+    </div>
+
+    <!-----------------ABOUT---------------->
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1" data-aos="fade-up">
+          <img src="images/trainer.png" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle" data-aos="fade-up">About <span>Me</span></h1>
+          <p data-aos="fade-up">
+            To obtain a position that is both creative and challenging within an
+            organization that will give me the opportunity for personal
+            development and leadership while also allowing me to contribute to
+            the organization's growth through the use of my innovative,
+            communication, passion, and computer-related skills.
+          </p>
+
+          <div class="tab-titles" data-aos="fade-up">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
+            <ul>
+              <li>
+                <span>Web Development</span><br />Designing Website/App
+                interfaces using HTML/CSS/JavaScript
+              </li>
+              <li>
+                <span>Microsoft Office Skill</span><br />Utilizing the tools and
+                different softwares of MS Office
+              </li>
+              <li>
+                <span>App Development</span><br />Building Android/IOS Apps
+                using C, Java, and Python
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2020 - Current</span><br />Front-end Web Developer at
+                TichTech Inc.
+              </li>
+              <li>
+                <span>2019 - 2020</span><br />Team lead at Malatech Company
+              </li>
+              <li>
+                <span>2018 - 2019</span><br />Intern at Microhard Office
+                Philippines
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2020 - Present</span><br />BS in Computer Science |
+                Polytechnic University of the Philippines
+              </li>
+              <li>
+                <span>2018-2020</span><br />STEM Academic Strand | Our lady of
+                Fatima University
+              </li>
+              <li><span>2014 - 2018</span><br />Commonwealth High School</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------PORTFOLIO------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="subtitle" data-aos="fade-up">My Portfolio</h2>
+        <div class="work-list">
+          <div class="work" data-aos="fade-up">
+            <img src="images/work1.jpg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                ducimus sit ratione quo omnis exercitationem?
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="fade-up">
+            <img src="images/work1.jpg" />
+            <div class="layer">
+              <h3>Music Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                ducimus sit ratione quo omnis exercitationem?
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="fade-up">
+            <img src="images/work1.jpg" />
+            <div class="layer">
+              <h3>Online Shopping Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                ducimus sit ratione quo omnis exercitationem?
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------POPUP--------------- -->
+        <button data-modal-target="#modal" class="btn1">See more</button>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">These are some of my works:</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>WALA HAHAHAH</p>
+          </div>
+        </div>
+        <div id="overlay"></div>
+      </div>
+    </div>
+
+    <!-----------------------SERVICES--------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle" data-aos="fade-up">My services</h1>
+        <div class="services-list" data-aos="fade-up">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              The process of creating a website's graphical user interface by
+              front-end programming langauge such as HTML, CSS, and JavaScript
+              so that users can view and interact with the website.
+            </p>
+            <a
+              href="https://bootcamp.berkeley.edu/resources/coding/learn-web-development/what-does-a-front-end-web-developer-do/">
+              Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Helping you crystalize a myriad of user flows in a product that
+              has a convenient, user-friendly and intuitive UX and UI, following
+              proven best practices in usability, compatibility, and
+              accessibility.
+            </p>
+            <a href="https://resources.workable.com/ui-ux-designer-job-description">
+              Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Administrate Database</h2>
+            <p>
+              Helps in data storage and security practices of DBA. This involves
+              designing, planning, setup of database and database upgrades which
+              helps the firm in making plans for further operations.
+            </p>
+            <a
+              href="https://www.informatica.com/services-and-training/glossary-of-terms/database-management-definition.html">Learn
+              more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------CONTACT----------------- -->
+    <div id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left" data-aos="fade-up">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>haberjohnmarkk@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>09453493078</p>
+            <div class="social-icons">
+              <a href="https://discord.com/channels/@Mhark#6161"><i class="fab fa-discord"
+                  title="Go to Discord"></i></a>
+              <a href="https://twitter.com/DyanMarku"><i class="fab fa-twitter-square" title="Go to Twitter"></i></a>
+              <a href="https://www.linkedin.com/in/jhon-mark-haber-428870204/"><i class="fa-brands fa-linkedin"
+                  title="Go to LinkedIn"></i></a>
+              <a href="https://github.com/DyanMarku"><i class="fab fa-github" title="Go to Github"></i></a>
+            </div>
+            <a href="icon/HABER-CV-STUDENT-INTERN.pdf" download="HABER - CV" class="btn1 btn2"><i
+                class="fa-solid fa-download"></i> Download
+              CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet" data-aos="fade-up">
+              <input type="text" name="Name" placeholder="Your Name" required data-aos="fade-up" />
+              <input type="email" name="Email" placeholder="Your Email" required data-aos="fade-up" />
+              <textarea name="Message" rows="6" placeholder="Your Message" data-aos="fade-up"></textarea>
+              <button type="Submit" class="btn1 btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Haber<br />
+        Programming language used: HTML/CSS/JavaScript
+      </p>
+    </div>
+
+    <!----------------- JAVASCRIPT ----------------->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks)
+        {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents)
+        {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzgf5r_TPTOAX1W5oOwkGZT6bWkQytyCWRWjnOwm5h6cWRyGHqYV6wMM_ZTSq3Cc0mGMQ/exec";
+      const form = document.forms[ "submit-to-google-sheet" ];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+
+      const openModalButtons = document.querySelectorAll("[data-modal-target]");
+      const closeModalButtons = document.querySelectorAll(
+        "[data-close-button]"
+      );
+      const overlay = document.getElementById("overlay");
+
+      openModalButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = document.querySelector(button.dataset.modalTarget);
+          openModal(modal);
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        const modals = document.querySelectorAll(".modal.active");
+        modals.forEach((modal) => {
+          closeModal(modal);
+        });
+      });
+
+      closeModalButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const modal = button.closest(".modal");
+          closeModal(modal);
+        });
+      });
+
+      function openModal(modal) {
+        if (modal == null) return;
+        modal.classList.add("active");
+        overlay.classList.add("active");
+      }
+
+      function closeModal(modal) {
+        if (modal == null) return;
+        modal.classList.remove("active");
+        overlay.classList.remove("active");
+      }
+
+      const toggle = document.getElementById("toggleDark");
+      const body = document.querySelector("body");
+
+      toggle.addEventListener("click", function () {
+        this.classList.toggle("bi-moon");
+        if (this.classList.toggle("bi-brightness-high-fill"))
+        {
+          body.style.background = "white";
+          body.style.color = "black";
+          body.style.transition = "2s";
+        } else
+        {
+          body.style.background = "black";
+          body.style.color = "white";
+          body.style.transition = "2s";
+        }
+      });
+    </script>
+  </body>
+
+</html>

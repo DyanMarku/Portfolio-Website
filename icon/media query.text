@@ -1,0 +1,82 @@
+/* Media Query */
+@media screen and (max-width: 1042px){
+    .logo {
+        height: 45px;
+        width: 95px;
+    }
+
+    .nav {
+        padding: 1rem 4.5rem;
+    }
+    
+    #item li {
+        padding-right: 30px;
+    }
+    
+    #item li a {
+        font-size: 0.9rem;
+    }
+    
+    #item .icon i{
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .logo {
+        height: 40px;
+        width: 90px;
+    }
+
+    .nav {
+        padding: 1rem 3rem;
+    }
+
+    #item{
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: 300px;
+        background: #000;
+        z-index: 100000;
+        margin-top: 4.2rem;
+    }
+    
+    #item li {
+        padding-right: 0;
+        padding: 4px 0;
+    }
+    
+    #item li a {
+        font-size: 1.2rem;
+    }
+    
+    #item .icon{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #item .icon i{
+        padding: 0 15px 0 px;    
+    }
+
+    #bar{
+        display: initial;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 496px){
+    
+}
